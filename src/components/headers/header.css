@@ -1,0 +1,43 @@
+.headertag{
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: #fff;
+    z-index: 1000;
+    will-change: transform;
+    transform: translateZ(0);
+    transition: transform .3s ease;
+    contain: size layout style;
+    padding: 0 20px;
+}
+header {
+    display: block;
+}
+
+.covering_anchortag{
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 80px;
+    background: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+a, a:focus, a:hover, a:visited{
+    text-decoration: none;
+}
+
+.anchortag {
+    display: block;
+    height: 49px;
+    transition: transform .3s cubic-bezier(.215,.61,.355,1);
+    margin-right: 16px;
+}
