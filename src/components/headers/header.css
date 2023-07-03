@@ -67,7 +67,7 @@ a, a:focus, a:hover, a:visited{
 
 .locFixed{
     text-transform: uppercase;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #686b78;
     line-height: 28px;
 }
 
@@ -78,6 +78,12 @@ a, a:focus, a:hover, a:visited{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+
+.point_location:hover{
+    color: #fc8019;
+    border-bottom: 1px solid #fc8019;
+
 }
 
 .point_exact_location{
@@ -91,3 +97,18 @@ a, a:focus, a:hover, a:visited{
     font-weight: 300;
 
 }
+
+.arrow {
+    position: absolute;
+    left: 324px;
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+    font-size: 0.9rem;
+    /* font-weight: 700; */
+}
+
+.arrow:hover{
+    color: #fc8019;
+    font-weight: 700;
+}
+

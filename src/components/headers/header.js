@@ -1,5 +1,6 @@
 import "./header.css";
 import swiggyLogo from "../../assets/logo/swiggy.svg";
+import arrow from "../../assets/logo/arrow.svg";
 
 const Header = () => {
   return (
@@ -14,6 +15,15 @@ const Header = () => {
               <span className="point_location">Other</span>
             </span>
             <span className="point_exact_location">Bangalore, Karnataka</span>
+            <span className="arrow">
+              <img className="arrow_img" src={arrow} alt="arrow" />
+            </span>
+          </div>
+          <div>
+            <div className="search">
+              <a href=""></a>
+            </div>
+            <a className="link" href=""></a>
           </div>
         </div>
       </div>
