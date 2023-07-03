@@ -9,8 +9,11 @@ const Header = () => {
           <a href="/" className="anchortag" title="swiggy">
             <img src={swiggyLogo} alt="swiggy" />
           </a>
-          <div className>
-
+          <div className="location">
+            <span className="locaSp locFixed">
+              <span className="point_location">Other</span>
+            </span>
+            <span className="point_exact_location">Bangalore, Karnataka</span>
           </div>
         </div>
       </div>

@@ -41,3 +41,53 @@ a, a:focus, a:hover, a:visited{
     transition: transform .3s cubic-bezier(.215,.61,.355,1);
     margin-right: 16px;
 }
+
+.location {
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    -ms-flex-align: center;
+    margin-left: 30px;
+    max-width: 300px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: -1px;
+    padding-right: 10px;
+}
+
+.locaSp .location {
+    position: relative;
+}
+
+.locaSp{
+    font-weight: 700;
+    color: #3d4152;
+    float: left;
+}
+
+.locFixed{
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    line-height: 28px;
+}
+
+
+.point_location {
+    display: block;
+    min-width: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.point_exact_location{
+    display: block;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: #686b78;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 300;
+
+}
